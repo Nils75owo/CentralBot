@@ -15,6 +15,8 @@ Bot.on('ready', () => {
     console.log(`${Bot.user.username} has started`);
 });
 
+//uwu
+
 Bot.on('message', (message) => {
     if (message.author.bot) return;
     if (message.content.startsWith(PREFIX)) {
